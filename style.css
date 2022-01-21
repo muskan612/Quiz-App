@@ -1,0 +1,136 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.full-page {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url('image.jpg');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.app-logo {
+	width: 20px;
+}
+
+.form-box {
+	width: 70%;
+	position: relative;
+	margin: 170px auto;
+	background: rgb(255, 255, 255, 0.5);
+	border-radius: 20px;
+	/* padding-bottom: 2%; */
+}
+
+header {
+	font-size: 8px;
+	padding: 5%;
+	margin: 1px;
+	border-radius: 20px 20px 0 0;
+	/* margin: 5% 30%; */
+	background: #ff6a06;
+	text-align: center;
+	color: white;
+	/* border-radius: 70px; */
+}
+
+.fields {
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+.input {
+	cursor: pointer;
+	font-size: 12px;
+	width: 90%;
+	padding: 8px;
+	margin: 3% 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+	background: transparent;
+}
+
+::placeholder {
+	color: rgb(48, 47, 47);
+}
+
+.menu {
+	display: inline-block;
+	box-sizing: border-box;
+	font-size: 12px;
+	width: 96%;
+	padding: 8px;
+	margin: 3% 0;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid black;
+	outline: none;
+	background: transparent;
+	color: rgb(46, 46, 46);
+	cursor: pointer;
+}
+
+.submit-btn {
+	font-size: 13px;
+	padding: 4%;
+	margin: 5% 28%;
+	margin-top: 20px;
+	width: 45%;
+	background: #ff6a06;
+	text-align: center;
+	color: white;
+	border-radius: 70px;
+	outline: none;
+	border: 0;
+}
+
+.submit-btn:hover {
+	background: #f34c0a;
+}
+
+@media screen and (min-width: 540px) {
+	.form-box {
+		width: 55%;
+		margin: 150px auto;
+	}
+}
+
+@media screen and (min-width: 650px) {
+	.form-box {
+		width: 45%;
+	}
+}
+
+@media screen and (min-width: 760px) {
+	.form-box {
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.form-box {
+		width: 35%;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	.form-box {
+		width: 30%;
+	}
+}
+
+@media screen and (min-width: 1300px) {
+	.form-box {
+		width: 28%;
+	}
+}
