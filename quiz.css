@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.full-page {
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+		url('image.jpg');
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+
+.app-logo {
+	width: 20px;
+}
+
+.logo1 {
+	width: 110px;
+	height: 30px;
+	margin: 10px 5px;
+}
+
+.ques-no {
+	width: 100px;
+	background: #ff6a06;
+	margin: auto;
+	padding: 10px;
+	text-align: center;
+	border-radius: 25px;
+	position: relative;
+	top: -15px;
+}
+
+.quiz-form {
+	width: 300px;
+	margin: 80px auto;
+	background: white;
+	border-radius: 20px;
+	position: relative;
+}
+
+.question {
+	padding: 10px 15px 20px 15px;
+}
+
+.options {
+	width: 250px;
+	margin: 30px auto;
+}
+
+input[class='correct'] {
+	accent-color: green;
+}
+
+input[class='wrong'] {
+	accent-color: rgb(255, 2, 2);
+}
+
+.submit-btn {
+	font-size: 13px;
+	padding: 4%;
+	margin: 5% 28%;
+	margin-top: 20px;
+	margin-bottom: 0;
+	width: 45%;
+	background: #ff6a06;
+	text-align: center;
+	color: white;
+	border-radius: 70px;
+	outline: none;
+	border: 0;
+}
+
+.submit-btn:hover {
+	background: #f34c0a;
+}
+
+.timer {
+	position: relative;
+	top: -5px;
+	text-align: center;
+	color: rgb(65, 65, 65);
+	padding-bottom: 10px;
+}
+
+header {
+	padding: 5%;
+	margin: 1px;
+	border-radius: 20px 20px 0 0;
+	background: #ff6a06;
+	text-align: center;
+	color: white;
+}
+
+.thank-you {
+	width: 300px;
+	margin: 150px auto;
+	background: white;
+	border-radius: 20px;
+	position: relative;
+}
+
+section {
+	padding: 30px 15px 25px 15px;
+}
+@media screen and (min-width: 540px) {
+	.logo1 {
+		width: 150px;
+		height: 45px;
+		margin: 10px;
+	}
+}
