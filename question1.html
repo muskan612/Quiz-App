@@ -24,10 +24,32 @@
                 <label for="option3">Hyperlinks Text Mark Language</label><br><br>
                 <input type="radio" class="wrong" name="options" id="option4" value="Option 4">
                 <label for="option4">Hyperlinking Text Marking Language</label>
-                <a href="question2.html"><button type="button" class="submit-btn">Next</button></a>
+                <a id="next" href="question2.html"><button type="button" class="submit-btn">Next</button></a>
             </form>
-            <p class="timer">Time left: </p>
+            <p class="timer">Time left: <span id="time">10 </span> sec</p>
+            
         </div>
     </div>
 </body>
+<script>
+    function startTimer(duration, display) {
+            var timer = duration, seconds;
+            setInterval(function () {
+                seconds = parseInt(timer % 60, 10);
+                seconds = seconds < 10 ? "0" + seconds : seconds;
+
+                display.textContent = seconds;
+
+                if (--timer < 0) {
+                    timer = window.location.href = "question2.html";
+                }
+            }, 1000);
+        }
+
+        window.onload = function () {
+            var Time = 9,
+                display = document.querySelector('#time');
+            startTimer(Time, display);
+        };
+</script>
 </html>

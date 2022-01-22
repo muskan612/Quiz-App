@@ -37,19 +37,22 @@
 
 .quiz-form {
 	width: 300px;
-	margin: 80px auto;
+	margin: 120px auto;
 	background: white;
 	border-radius: 20px;
 	position: relative;
 }
 
 .question {
+	font-size: 17px;
+	font-weight: 600;
 	padding: 10px 15px 20px 15px;
 }
 
 .options {
 	width: 250px;
 	margin: 30px auto;
+	line-height: 20px;
 }
 
 input[class='correct'] {
@@ -98,15 +101,17 @@ header {
 
 .thank-you {
 	width: 300px;
-	margin: 150px auto;
+	margin: 120px auto;
 	background: white;
 	border-radius: 20px;
 	position: relative;
+	line-height: 20px;
 }
 
 section {
 	padding: 30px 15px 25px 15px;
 }
+
 @media screen and (min-width: 540px) {
 	.logo1 {
 		width: 150px;
