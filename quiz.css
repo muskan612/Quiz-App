@@ -64,11 +64,14 @@ input[class='wrong'] {
 }
 
 .submit-btn {
+	position: relative;
+	top: -10px;
+	left: 82px;
 	font-size: 13px;
 	padding: 4%;
-	margin: 5% 28%;
-	margin-top: 20px;
-	margin-bottom: 0;
+	/* margin: 5% 28%; */
+	/* margin-top: 20px; */
+	margin-bottom: 10px;
 	width: 45%;
 	background: #ff6a06;
 	text-align: center;
@@ -112,10 +115,64 @@ section {
 	padding: 30px 15px 25px 15px;
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 440px) {
+	.quiz-form {
+		width: 400px;
+		margin: 90px auto;
+	}
 	.logo1 {
 		width: 150px;
 		height: 45px;
 		margin: 10px;
 	}
+	.question {
+		padding-left: 20px;
+		font-size: 15px;
+	}
+	.options {
+		width: 300px;
+		font-size: 14px;
+		/* padding: 0 10px; */
+		line-height: 18px;
+	}
+	.timer {
+		font-size: 13px;
+		top: -10px;
+	}
+}
+
+@media screen and (min-width: 540px) {
+	.quiz-form {
+		width: 500px;
+		margin: 90px auto;
+	}
+	.ques-no {
+		margin-left: 8px;
+		top: 8px;
+	}
+	.question {
+		padding-top: 25px;
+	}
+	.options {
+		margin: 25px 15px;
+	}
+	.submit-btn {
+		margin-left: 320px;
+		margin-bottom: 10px;
+	}
+	.timer {
+		/* margin-left: 20px;
+		text-align: left;
+		top: -50px; */
+		float: left;
+		top: -70px;
+		left: 15px;
+		border: 1px solid #ff6a06;
+		border-radius: 70px;
+		padding: 8px 15px;
+		font-size: 12px;
+	}
+}
+
+@media screen and (min-width: 540px) {
 }
