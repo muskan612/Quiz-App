@@ -33,6 +33,7 @@
 	border-radius: 25px;
 	position: relative;
 	top: -15px;
+	color: white;
 }
 
 .quiz-form {
@@ -115,6 +116,12 @@ section {
 	padding: 30px 15px 25px 15px;
 }
 
+.start {
+	position: relative;
+	left: 73px;
+	margin-bottom: 0;
+}
+
 @media screen and (min-width: 440px) {
 	.quiz-form {
 		width: 400px;
@@ -127,17 +134,45 @@ section {
 	}
 	.question {
 		padding-left: 20px;
-		font-size: 15px;
+		font-size: 18px;
 	}
 	.options {
-		width: 300px;
+		width: 350px;
 		font-size: 14px;
 		/* padding: 0 10px; */
 		line-height: 18px;
 	}
+	.submit-btn {
+		width: 30%;
+		padding: 3%;
+		left: 150px;
+		margin-bottom: 2px;
+	}
 	.timer {
-		font-size: 13px;
-		top: -10px;
+		float: left;
+		left: 15px;
+		border: 1px solid #ff6a06;
+		border-radius: 70px;
+		padding: 8px 15px;
+		font-size: 12px;
+	}
+	.start {
+		font-size: 15px;
+		width: 110px;
+		padding: 12px;
+		left: 115px;
+		top: 10px;
+	}
+	.thank-you {
+		margin: 80px auto;
+		width: 400px;
+	}
+	.thank-you header {
+		font-size: 20px;
+	}
+	section {
+		font-size: 15px;
+		margin: 10px 12px;
 	}
 }
 
@@ -154,25 +189,99 @@ section {
 		padding-top: 25px;
 	}
 	.options {
-		margin: 25px 15px;
+		margin: 30px 15px;
 	}
 	.submit-btn {
-		margin-left: 320px;
-		margin-bottom: 10px;
+		width: 23%;
+		left: 250px;
+		padding: 12px;
 	}
 	.timer {
-		/* margin-left: 20px;
-		text-align: left;
-		top: -50px; */
 		float: left;
-		top: -70px;
 		left: 15px;
 		border: 1px solid #ff6a06;
 		border-radius: 70px;
 		padding: 8px 15px;
 		font-size: 12px;
 	}
+	.thank-you {
+		width: 500px;
+	}
+	.start {
+		width: 110px;
+		left: 170px;
+	}
 }
 
-@media screen and (min-width: 540px) {
+@media screen and (min-width: 740px) {
+	.quiz-form {
+		width: 650px;
+	}
+	.question {
+		font-size: 20px;
+		margin-left: 10px;
+	}
+	.options {
+		margin-left: 40px;
+		margin-bottom: 50px;
+		font-size: 17px;
+	}
+	.submit-btn {
+		left: 355px;
+	}
+	.timer {
+		font-size: 14px;
+		bottom: 2px;
+	}
+	.thank-you {
+		width: 650px;
+	}
+	.start {
+		left: 240px;
+		font-size: 17px;
+		padding: 14px;
+		width: 120px;
+	}
+	header {
+		padding: 4%;
+	}
+	.thank-you header {
+		font-size: 25px;
+	}
+}
+
+@media screen and (min-width: 850px) {
+	.quiz-form {
+		margin: 65px auto;
+		width: 750px;
+	}
+	.ques-no {
+		font-size: 18px;
+		padding: 12px;
+	}
+	.question {
+		margin: 8px 12px;
+		font-size: 20px;
+	}
+	.options {
+		font-size: 17px;
+	}
+	.submit-btn {
+		left: 450px;
+		font-size: 15px;
+		width: 20%;
+	}
+	.timer {
+		padding: 10px;
+		top: -11px;
+	}
+	.thank-you {
+		width: 750px;
+	}
+	.start {
+		left: 285px;
+	}
+	.thank-you header {
+		padding: 3.5%;
+	}
 }
